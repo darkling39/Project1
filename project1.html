@@ -20,6 +20,38 @@
         .wraper > .light{ 
             background-color: bisque;
         }
+
+
+
+        .talon{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 1em;
+            grid-auto-rows: minmax(100px auto);
+            <!grid-auto-rows: 150px;>
+            text-align: center;
+            margin-top: 1em;
+
+        }
+        .included{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 1em;
+            grid-auto-rows: 60px;
+            text-align: center;
+        }
+        .included > div{
+            background-color: darkkhaki;
+        }
+        .night{
+            padding: 1em;
+            background-color: cornflowerblue;
+    
+        }
+        .dark{
+            background-color: cornsilk;
+            padding: 1em;
+        }
     </style>
 </head>
 <body>
@@ -53,6 +85,40 @@
         </div>
         <div class="light">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, amet dolore? Sit, expedita eum! Illum consequuntur facere provident fugit amet?
+        </div>
+    </div>
+
+        <! дубль два>
+
+    <div class="talon">
+        <div class="night">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, aspernatur.            
+        </div>
+        <div class="dark">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima adipisci tenetur aliquam, exercitationem mollitia quis amet aliquid quod dolor, quas omnis dolore cumque ut. Veritatis enim ullam officia reprehenderit quisquam, porro esse assumenda nulla neque tempora provident, optio accusantium recusandae eligendi saepe ab iure quia dolorum dolor odio animi, tempore temporibus? Sunt odit adipisci architecto?
+        </div>
+        <div class="night">
+            <div class="included">
+                <div> Lorem, ipsum.</div>
+                <div> Lorem, ipsum.</div>
+                <div> Lorem, ipsum.</div>
+                <div> Lorem, ipsum.</div>
+            </div>
+        </div>
+        <div class="dark">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, soluta.
+        </div>
+        <div class="night">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, aspernatur.            
+        </div>
+        <div class="dark">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, soluta.
+        </div>
+        <div class="night">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, aspernatur.            
+        </div>
+        <div class="dark">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, soluta.
         </div>
     </div>
 </body>
